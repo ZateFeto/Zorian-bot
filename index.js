@@ -2,6 +2,8 @@ const Discord = require('discord.js');
 const express = require('express');
 const basicAuth = require('express-basic-auth');
 
+require('dotenv').config();
+
 const app = express();
 
 app.use(basicAuth({
