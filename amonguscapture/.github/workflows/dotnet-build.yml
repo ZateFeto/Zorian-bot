@@ -1,0 +1,32 @@
+
+name: Beta releases
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1
+      - name: Install dependencies
+        run: dotnet restore "AUCapture-WPF\AUCapture-WPF.csproj"
+      - name: Publish
+        run: |
+          dotnet publish "AUCapture-WPF\AUCapture-WPF.csproj" -p:PublishProfile=FolderProfile -p:AssemblyVersion=0.0.1
+      - name: Relocate
+        run: |
+          mv AUCapture-WPF\\bin\\Release\\netcoreapp3.1\\publish\\AUCapture-WPF.exe AmongUsCapture.exe
+      - name: AmongUsCapture-beta
+        uses: actions/upload-artifact@v2
+        with:
+          name: AmongUsCapture-beta
+          path: AmongUsCapture.exe

@@ -1,0 +1,1 @@
+// listen to game capture and if it says player id johny is dead = true, then put him in a temporary state of being dead so user gets moved to new channel when meeting is called

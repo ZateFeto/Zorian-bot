@@ -1,0 +1,1 @@
+// bind user to color after user reacts with a specific emoji in a specific post made by zorian bot in discord.

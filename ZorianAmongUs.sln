@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZorianAmongUs", "ZorianAmongUs\ZorianAmongUs.csproj", "{6845D170-5EF7-40C3-9496-05EF1E12981B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCE4B76C-4BA1-4D5D-A298-EAF8C1283701}"
+	ProjectSection(SolutionItems) = preProject
+		command.js = command.js
+		config.json = config.json
+		index.js = index.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmongUsCapture", "amonguscapture\AmongUsCapture\AmongUsCapture.csproj", "{02AA530E-37C6-452D-80C3-863722BE197B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imports", "Imports", "{B2797C55-9A83-4000-9042-EE06A8154510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6845D170-5EF7-40C3-9496-05EF1E12981B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6845D170-5EF7-40C3-9496-05EF1E12981B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6845D170-5EF7-40C3-9496-05EF1E12981B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6845D170-5EF7-40C3-9496-05EF1E12981B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AA530E-37C6-452D-80C3-863722BE197B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AA530E-37C6-452D-80C3-863722BE197B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AA530E-37C6-452D-80C3-863722BE197B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AA530E-37C6-452D-80C3-863722BE197B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02AA530E-37C6-452D-80C3-863722BE197B} = {B2797C55-9A83-4000-9042-EE06A8154510}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8130164-037E-4A15-A5BA-8A1E0DFD0CAB}
+	EndGlobalSection
+EndGlobal
