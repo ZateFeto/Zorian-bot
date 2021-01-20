@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
 
-//require('dotenv').config();
-
 const express = require('express');
 const basicAuth = require('express-basic-auth');
 
