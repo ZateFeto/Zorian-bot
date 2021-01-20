@@ -22,7 +22,7 @@ class Lobby {
 }
 
 const client = new Discord.Client();
-const { prefix, token } = require('dotenv');
+const { PREFIX: prefix, BOT_TOKEN: token } = process.env
 const fs = require('fs');
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
