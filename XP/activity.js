@@ -1,0 +1,1 @@
+// gain xp from texting and voice chatting

@@ -1,0 +1,1 @@
+// detect user joining discord then do something - mostly posting a welcome message with a picture or something and maybe optional to send him in the dms the rules or just ping the rule channel

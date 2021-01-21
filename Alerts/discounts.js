@@ -1,0 +1,1 @@
+// Steam API then detect discounts on watched games
