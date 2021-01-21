@@ -9,6 +9,6 @@ module.exports = {
 	name: 'test1',
 	description: 'this is a ping command',
 	execute(message, args) {
-		message.channel.send('test1 2');
+		message.channel.send('im still not sleeping 2');
 	},
 };
